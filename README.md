@@ -5,7 +5,7 @@ This is a simple test framework, which will be improved with additional helper f
 
 This is a simple and useful test framework, which use only SML. And you can write simple tests right now! Congratulation!
 
-How I can write tests?
+How can you write tests?
 ======================
 
 * You can separate tests from realization in separate files
@@ -22,11 +22,11 @@ Each line of test file must be ended by **semicolon**!
 
 ###### sample1tests.sml
 
-    use "lib\\smlunit.sml";
-    use "sample1.sml";
-    
-    test("should return 7 as result of addition", isTrue(addition(3,4) = 7));
-    test("should return 25 as result of multiplying", isTrue(multiply(5,5) = 25));
+	use "lib\\smlunit.sml";
+	use "sample1.sml";
+
+	test("should return 7 as result of addition", isTrue(addition(3,4) = 7));
+	test("should return 25 as result of multiplying", isTrue(multiplication(5,5) = 25));
 
 ###### sample1.sml
 
